@@ -1,0 +1,20 @@
+[
+  {
+    "name": "View sources",
+    "steps": [
+      {
+        "expect": [
+          {
+            "method": "sendMessage",
+            "payload": {
+              "text": "Show links to public registries where information was found"
+            }
+          }
+        ],
+        "send": {
+          "callback": "view_sources"
+        }
+      }
+    ]
+  }
+]
