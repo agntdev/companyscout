@@ -1,0 +1,20 @@
+[
+  {
+    "name": "/recent",
+    "steps": [
+      {
+        "expect": [
+          {
+            "method": "sendMessage",
+            "payload": {
+              "text": "View the last 10 searches performed by the user"
+            }
+          }
+        ],
+        "send": {
+          "text": "/recent"
+        }
+      }
+    ]
+  }
+]
